@@ -1,0 +1,66 @@
+*, **::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-list {
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+
+}
+
+.btn {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.start-btn, .next-btn {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.highscore-btn, .time-btn {
+    font-size: 12px;
+}
+
+.time-btn {
+    float: right;
+}
+
+.controls {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.hide {
+    display: none;
+}
